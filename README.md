@@ -15,3 +15,20 @@ There is data on users attracted from May 1 to October 27, 2019:
 3.how much money does each client bring,
 4.when the cost of attracting a client pays off,
 <br>5.what factors prevent attracting customers.
+### Information about data and its structure:
+The visits_info_short.csv file stores the server log with information about site visits, orders_info_short.csv — information about orders, and costs_info_short.csv — information about advertising expenses.
+##### visits_info_short.csv structure:
+<br>User Id — unique user ID,
+<br>Region — user's country,
+<br>Device — user's device type,
+<br>Channel — ID of the transition source,
+<br>Session Start — date and time of the session start,
+<br>Session End — date and time of the end of the session.
+##### orders_info_short.csv structure:
+<br>User Id — unique user ID,
+<br>Event Dt — date and time of purchase,
+<br>Revenue — the amount of the order.
+##### costs_info_short.csv structure:
+<br>dt — date of the advertising campaign,
+<br>Channel — the identifier of the advertising source,
+<br>costs — expenses for this campaign.
