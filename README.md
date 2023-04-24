@@ -32,3 +32,26 @@ The visits_info_short.csv file stores the server log with information about site
 <br>dt — date of the advertising campaign,
 <br>Channel — the identifier of the advertising source,
 <br>costs — expenses for this campaign.
+### Project execution plan:
+
+#### Step 1. Download the data and prepare it for analysis
+#### Step 2. Define functions for calculating and analyzing LTV, ROI, retention and conversion.
+#### Step 3. Research Data Analysis
+<br> 3.1 Let's make user profiles. We will determine the minimum and maximum dates for attracting users.
+3.2 Let's find out from which countries users come to the application and which country accounts for the most paying users. Let's build a table showing the number of users and the share of payers from each country.
+3.3 Which devices are used by customers and which devices are preferred by paying users. Let's build a table reflecting the number of users and the share of those paying for each device.
+3.4 Let's study the advertising sources of attraction and determine the channels from which the most paying users came. Let's build a table reflecting the number of users and the share of payers for each attraction channel.
+#### Step 4. Marketing
+4.1 Let's calculate the total amount of marketing expenses.
+4.2 Let's find out how the expenses are distributed by advertising sources, that is, how much money was spent on each source.
+4.3 Let's build a visualization of the dynamics of expenditure changes over time (by weeks and months) for each source. Let's reflect this on one graph.
+4.4 Find out how much it cost on average to attract one user (CAC) from each source. We use user profiles.
+#### Step 5. Evaluation of the payback of advertising
+5.1 Let's analyze the payback of advertising using LTV and ROI graphs, as well as LTV, CAC and ROI dynamics graphs.
+5.2 Let's check the user conversion and the dynamics of its changes. We will do the same with user retention. Let's build and study conversion and retention charts.
+5.3 Let's analyze the payback of advertising by device. Let's plot LTV and ROI graphs, as well as LTV, CAC and ROI dynamics graphs.
+5.4 Let's analyze the payback of advertising by country. Let's plot LTV and ROI graphs, as well as LTV, CAC and ROI dynamics graphs.
+5.5 Let's analyze the payback of advertising by advertising channels. Let's plot LTV and ROI graphs, as well as LTV, CAC and ROI dynamics graphs.
+#### Step 6. Conclusions on the project
+6.1 Highlight the reasons for the inefficiency of attracting users.
+6.2 Formulate recommendations for the marketing department.
